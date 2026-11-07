@@ -1,0 +1,8 @@
+{
+  "name": "fritzing",
+  "version": "1.0.0",
+  "description": "Build Fritzing sketches (.fzz) from code: breadboard, schematic, and PCB views from one net list, checked by loading them in Fritzing.",
+  "author": { "name": "medium_claude_fritzing contributors" },
+  "license": "MIT",
+  "keywords": ["fritzing", "electronics", "breadboard", "schematic", "pcb"]
+}

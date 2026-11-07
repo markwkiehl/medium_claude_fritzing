@@ -1,0 +1,14 @@
+{
+  "name": "medium-claude-fritzing",
+  "description": "The fritzing skill for Claude Code",
+  "owner": {
+    "name": "medium_claude_fritzing contributors"
+  },
+  "plugins": [
+    {
+      "name": "fritzing",
+      "source": "./",
+      "description": "Build Fritzing sketches (.fzz) from code: breadboard, schematic, and PCB views from one net list."
+    }
+  ]
+}

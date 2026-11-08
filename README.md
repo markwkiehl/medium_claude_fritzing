@@ -4,7 +4,7 @@ This repository holds a skill that teaches Claude Code to build Fritzing sketche
 
 ![Breadboard, schematic and PCB view of a battery, push button, resistor and LED](skills/fritzing/examples/battery_led_three_views.png)
 
-The picture shows the example in this repository. The circuit is a 4 x AAA battery holder, a push button, a 330 ohm resistor, and a red LED in a loop. The breadboard view is on top. The schematic view is bottom left and the PCB view is bottom right. The PCB picture shows copper only: the pads and the traces, not the outline of the battery holder.
+The picture shows the example in this repository. The circuit is a 4 x AAA battery holder, a push button, a 330 ohm resistor, and a red LED in a loop. The breadboard view is on top. The schematic view is bottom left and the PCB view is bottom right. The PCB picture is a screenshot of the Fritzing window. It shows the silkscreen outlines of the parts, and the green dots mark connected pins.
 
 ## What you need
 

@@ -57,7 +57,7 @@ description: Build, check, and edit Fritzing sketches (.fzz and .fz files) with 
 ### Check
 
 - Run `python scripts\fritzing_export.py "C:\Program Files\Fritzing\Fritzing.exe" <sketch.fzz> <new empty folder>`. Read each line it prints. It writes `<name>_breadboard.svg`, `<name>_schematic.svg`, and `<name>_pcb.svg`.
-- Look at the SVG files as pictures. One way on Windows: write an HTML page that holds an `<img>` of the SVG file, then run `msedge.exe --headless --window-size=W,H --screenshot=<out.png> file:///<page.html>`. Read the PNG. The export shows copper only, not the silkscreen outlines.
+- Look at the SVG files as pictures. One way on Windows: write an HTML page that holds an `<img>` of the SVG file, then run `msedge.exe --headless --window-size=W,H --screenshot=<out.png> file:///<page.html>`. Read the PNG. The export shows copper only, not the silkscreen outlines. For a PCB picture with the outlines, screenshot the PCB view in the Fritzing window with `scripts\fritzing_gui_shot.ps1` and crop the board (the PCB pictures in `examples/` were made this way).
 - For each part, check three things: it is drawn, its pins sit on the holes, and each wire end touches a pin.
 - The SVG export does not draw ratsnest lines (the thin lines that show unrouted connections). So it cannot prove that Fritzing registered the connections. Open the sketch in the Fritzing window.
 - Windows, in the real Fritzing window:

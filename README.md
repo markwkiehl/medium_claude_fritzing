@@ -12,7 +12,7 @@ The picture shows the example in this repository. The circuit is a 4 x AAA batte
 - Fritzing, installed. Download it from [fritzing.org](https://fritzing.org).
 - Python 3. The scripts use only the standard library, so you do not install any package.
 
-The author tested all of this on Windows 11 with Fritzing 1.0.x. It was not tested on macOS or Linux. The Windows steps below may need small changes there.
+The author tested all of this on Windows 11 and Ubuntu with Fritzing 1.0.x. It was not tested on macOS. The Windows steps below may need small changes there.
 
 Some words you will meet:
 
@@ -135,4 +135,4 @@ Start small. Two to six parts is a good size.
 
 This repository uses the MIT licence. See the file `LICENSE`.
 
-Fritzing and its parts library belong to their own authors and are not included here. The scripts read the parts library from your own Fritzing install. No Adafruit files are included either.
+Fritzing and its parts library belong to their own authors and are not included here. The scripts read the parts library from your own Fritzing install. 
